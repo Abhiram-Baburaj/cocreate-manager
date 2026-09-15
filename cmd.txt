@@ -1,0 +1,1 @@
+pyinstaller --onedir --windowed --uac-admin cocreate-manager.pyw
