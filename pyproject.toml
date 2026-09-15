@@ -1,0 +1,16 @@
+[project]
+name = "cocreate-manager"
+version = "1.0.0"
+description = "Python Application that ease the use of pirated CoCreate 2013"
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.13,<3.16"
+dependencies = ["psutil (>=7.2.2,<8.0.0)", "pystray (>=0.19.5,<0.20.0)", "pywin32 (>=312,<313)", "pillow (>=12.3.0,<13.0.0)", "pyinstaller (>=6.22.3,<7.0.0)"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

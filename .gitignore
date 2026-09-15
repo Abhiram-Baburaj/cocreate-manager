@@ -1,6 +1,11 @@
 # Virtual Environment
 .venv/
 
+# VS Code Configurations
+.vscode/*
+!.vscode/settings.json
+
+
 # Build artifacts
 build/
 dist/
