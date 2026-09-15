@@ -1,12 +1,12 @@
 # CoCreate Manager
 
-A Python-based application.
+A Python-based application to ease the use of pirated CoCreate 2013.
 
 ## Setup Instructions
 
 1. **Clone the repository:**
    ```bash
-   git clone <YOUR_REPO_URL>
+   git clone https://github.com/Abhiram-Baburaj/cocreate-manager
    cd cocreate-manager
    ```
 
@@ -43,13 +43,6 @@ This project uses PyInstaller to compile into a standalone application.
    ```bash
    pyinstaller cocreate-manager.spec
    ```
+   or
+   use the command in `buildcommand` file
 3. The compiled executable will be available in the `dist/` directory.
-
-## Project Structure
-
-* `cocreate-manager.pyw` - Main application script
-* `cocreate-manager.spec` - PyInstaller build configuration
-* `cmd.txt` - Command references
-* `requirements.txt` - Project dependencies
-* `build/` & `dist/` - PyInstaller build artifacts (ignored by git)
-* `.venv/` - Virtual environment (ignored by git)
