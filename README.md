@@ -1,6 +1,11 @@
 # CoCreate Manager
 
 A Python-based application to ease the use of pirated CoCreate 2013.
+Features:
+* **No Python Required:** Run the application directly without needing to install Python, manage dependencies, or set up virtual environments.
+* **Silent Execution:** The application runs seamlessly in the background and hides itself in the taskbar tray.
+* **Automatic License Server Launcher:** This application constantly launches the license server at set intervals to keep it running in the background.
+* **Automatic time changer:** This application automatically changes the year to 2013 to comply with the license server.
 
 ## Setup Instructions
 
